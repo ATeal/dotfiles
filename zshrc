@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/arteal/.oh-my-zsh"
+export ZSH="/home/arteal/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,5 +105,5 @@ DEFAULT_USER=`whoami`
 # Both can be omitted, rendering default background/foreground.
 
 export RPROMPT="$(rvm-prompt)"
-export EDITOR='/usr/local/bin/nvim'
-export PATH="/usr/local/sbin:$PATH"
+export EDITOR='/usr/bin/nvim'
+export PATH="/usr/local/sbin:/usr/lib/go-1.11/bin:$PATH"
