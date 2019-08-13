@@ -20,22 +20,22 @@ if dein#load_state('~/.cache/dein')
   " but honestly didn't have time to set it up right
   " call dein#add('tpope/vim-rhubarb')
   call dein#add('airblade/vim-gitgutter')
-  
+
   " Jumps
   call dein#add('easymotion/vim-easymotion')
   call dein#add('christoomey/vim-tmux-navigator')
   call dein#add('kshenoy/vim-signature')
-  
+
   " Tools
   call dein#add('tpope/vim-surround')
   call dein#add('tomtom/tcomment_vim')
   call dein#add('w0rp/ale')
   call dein#add('michaeljsmith/vim-indent-object')
-  
+
   " Style
-  " call dein#add('dracula/vim')
-  call dein#add('morhetz/gruvbox')
-  
+  call dein#add('dracula/vim')
+  " call dein#add('morhetz/gruvbox')
+
   " Languages
   call dein#add('Shougo/deoplete.nvim')
   call dein#add('Shougo/neosnippet.vim')
@@ -47,10 +47,10 @@ if dein#load_state('~/.cache/dein')
   call dein#add('mxw/vim-jsx')
   call dein#add('leafgarland/typescript-vim')
   call dein#add('stephpy/vim-yaml')
-  
+
   " Tracking
   call dein#add('wakatime/vim-wakatime')
- 
+
   " Misc
   call dein#add('itchyny/calendar.vim')
 
