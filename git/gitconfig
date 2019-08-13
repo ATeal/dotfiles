@@ -2,7 +2,7 @@
 	name = ATeal
 	email = arteal89@gmail.com
 [core]
-	excludesfile = /Users/arteal/.gitignore_global
+	excludesfile = /home/arteal/.gitignore_global
 [github]
 	user = ATeal
 [ghi]
