@@ -36,6 +36,6 @@ alias k9='sudo kill -9'
 alias tf='tail -f'
 alias bsrv='brew services'
 alias kmt='tmux kill-session -t main'
-
-#Testing
-alias git='hub'
+alias psqlstart='sudo service postgresql start'
+alias redisstart='sudo service redis-server start'
+alias expl='explorer.exe .'
