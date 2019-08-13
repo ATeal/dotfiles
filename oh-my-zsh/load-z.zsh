@@ -1,1 +1,1 @@
-source /users/arteal/Projects/Personal/z/z.sh
+source /home/arteal/Projects/Personal/z/z.sh
