@@ -47,6 +47,9 @@ if dein#load_state('~/.cache/dein')
   call dein#add('mxw/vim-jsx')
   call dein#add('leafgarland/typescript-vim')
   call dein#add('stephpy/vim-yaml')
+  call dein#add('StanAngeloff/php.vim')
+  call dein#add('2072/PHP-Indenting-for-VIm')
+  call dein#add('dart-lang/dart-vim-plugin')
 
   " Tracking
   call dein#add('wakatime/vim-wakatime')

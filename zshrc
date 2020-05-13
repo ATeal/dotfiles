@@ -1,3 +1,6 @@
+# RESET PATH removing windows from path
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -107,3 +110,9 @@ DEFAULT_USER=`whoami`
 export RPROMPT="$(rvm-prompt)"
 export EDITOR='/usr/bin/nvim'
 export PATH="/usr/local/sbin:/usr/lib/go-1.11/bin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/arteal/.sdkman"
+[[ -s "/home/arteal/.sdkman/bin/sdkman-init.sh" ]] && source "/home/arteal/.sdkman/bin/sdkman-init.sh"

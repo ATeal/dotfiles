@@ -28,6 +28,7 @@ alias bers='ber s'
 alias berc='ber c'
 alias bes='be rspec'
 alias berp='pry -r ./config/environment'
+alias fs='foreman start'
 
 #Conveinence
 alias vets-socks='ssh socks -D 2001 -N'
@@ -38,4 +39,5 @@ alias bsrv='brew services'
 alias kmt='tmux kill-session -t main'
 alias psqlstart='sudo service postgresql start'
 alias redisstart='sudo service redis-server start'
+alias dbsstart='psqlstart && redisstart'
 alias expl='explorer.exe .'
