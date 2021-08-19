@@ -4,7 +4,9 @@ let g:ale_fixers = {
 \   'javascript': ['eslint', 'prettier'],
 \   'typescript': ['prettier', 'tslint'],
 \   'ruby': ['rubocop'],
+\   'terraform': ['terraform'],
 \   'json': ['fixjson'],
+\   'html': ['tidy'],
 \}
 
 let g:ale_fix_on_save = 1

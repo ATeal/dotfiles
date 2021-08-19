@@ -21,10 +21,10 @@ let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
 
 " Dracula boi
-" color dracula
+color dracula
 " Gruvbox boi
-let g:gruvbox_italic=1
-color gruvbox
+"let g:gruvbox_italic=1
+" color gruvbox
 set background=dark
 
 " Switch Background
@@ -63,3 +63,14 @@ set diffopt+=vertical
 
 nmap <leader>ct :! ctags -R<CR>
 command W w
+
+func! GetSelectedText()
+  normal gv"xy
+  let result = getreg("x")
+  return result
+endfunc
+
+
+" WSL ClipBoard
+" noremap ,C :call system('clip.exe', GetSelectedText())<CR>
+" noremap ,V :call system('clip.exe', GetSelectedText())<CR>gvx

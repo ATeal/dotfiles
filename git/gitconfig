@@ -3,6 +3,8 @@
 	email = arteal89@gmail.com
 [core]
 	excludesfile = /Users/arteal/.gitignore_global
+  editor = /usr/bin/nvim
+	hooksPath = /home/arteal/Projects/git-hooks-core
 [github]
 	user = ATeal
 [ghi]
@@ -12,3 +14,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential "https://repo.bespin.cce.af.mil"]
+	helper = 
+	helper = !/usr/bin/glab auth git-credential
